@@ -1,0 +1,59 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-whiter-color: #ffffff;
+  --footer-bg-color: #2f303a;
+}
+body {
+  background-color: var(--primary-whiter-color);
+  color: var(--primary-text-color);
+}
+.title {
+  color: var(--title-text-color);
+}
+.button {
+  color: var(--primary-whiter-color);
+  background-color: var(--accent-color);
+}
+a {
+  text-decoration: none;
+}
+.nav-link {
+  color: var(--title-text-color);
+}
+.nav-link-email,
+.nav-link-phone {
+  color: #757575;
+}
+.nav-link:hover,
+.nav-link:focus,
+.nav-link-email:hover,
+.nav-link-email:focus,
+.nav-link-phone:hover,
+.nav-link-phone:focus {
+  color: var(--accent-color);
+}
+.hero-title {
+  background-color: #2f303a;
+  color: var(--primary-whiter-color);
+}
+.main-nav-link {
+  background-color: #eeeeee;
+  color: var(--title-text-color);
+}
+.main-nav-link:hover,
+.main-nav-link:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-whiter-color);
+}
+.footer-link-email,
+.footer-link-phone {
+  background-color: var(--footer-bg-color);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+}
