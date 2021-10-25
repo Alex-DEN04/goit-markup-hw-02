@@ -6,11 +6,20 @@
   --footer-bg-color: #2f303a;
 }
 body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1, 2;
   background-color: var(--primary-whiter-color);
   color: var(--primary-text-color);
 }
-.title {
+.logo {
+  font-family: "Raleway", sans-serif;
+}
+.title,
+.portfolio-title {
   color: var(--title-text-color);
+}
+.portfolio-title {
 }
 .button {
   color: var(--primary-whiter-color);
