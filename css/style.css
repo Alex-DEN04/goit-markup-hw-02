@@ -1,39 +1,46 @@
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
   --primary-whiter-color: #ffffff;
   --footer-bg-color: #2f303a;
+  --logo-color--: #000000;
 }
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1, 2;
+  line-height: 1.71;
   background-color: var(--primary-whiter-color);
   color: var(--primary-text-color);
-}
-.logo {
-  font-family: "Raleway", sans-serif;
-}
-.title,
-.portfolio-title {
-  color: var(--title-text-color);
-}
-.portfolio-title {
-}
-.button {
-  color: var(--primary-whiter-color);
-  background-color: var(--accent-color);
 }
 a {
   text-decoration: none;
 }
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+.logo-part {
+  color: var(--logo-color--);
+}
+
 .nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
   color: var(--title-text-color);
 }
 .nav-link-email,
 .nav-link-phone {
-  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-text-color);
 }
 .nav-link:hover,
 .nav-link:focus,
@@ -44,23 +51,63 @@ a {
   color: var(--accent-color);
 }
 .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
   background-color: #2f303a;
   color: var(--primary-whiter-color);
 }
-.main-nav-link {
+.title,
+.title-features,
+.title-team,
+.title-portfolio {
+  color: var(--title-text-color);
+}
+.title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.title-features{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  }
+.title-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+
+
+.portfolio-title {
+}
+.button {
+  color: var(--primary-whiter-color);
+  background-color: var(--accent-color);
+}
+
+
+
+
+.portfolio-button {
   background-color: #eeeeee;
   color: var(--title-text-color);
 }
-.main-nav-link:hover,
-.main-nav-link:focus {
+.portfolio-button:hover,
+.portfolio-button:focus {
   background-color: var(--accent-color);
   color: var(--primary-whiter-color);
 }
 .footer-link-email,
 .footer-link-phone {
   background-color: var(--footer-bg-color);
-  color: rgba(255, 255, 255, 0.6);
-}
+  color: var(--footer-contacts-color)
 
 .button:hover,
 .button:focus,
